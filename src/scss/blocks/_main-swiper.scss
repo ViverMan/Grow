@@ -1,0 +1,31 @@
+.main-swiper {
+}
+
+.slider {
+    height: 100vh;
+}
+.swiper-wrapper {
+}
+
+.swiper-slide {
+}
+
+.slider__item {
+    height: 100vh;
+    overflow: hidden;
+    transform: scale(1.25)!important;
+    transition: 3s ease!important; 
+
+    &:not(.swiper-slide-active) {
+        transform: scale(1)!important;
+    }
+}
+
+.slider__layer {
+    position: absolute;
+    inset: 0;
+    background-position: center center; /* x y */
+    background-size: auto;
+    background-repeat: no-repeat;
+    will-change: transform;
+}

@@ -1,0 +1,32 @@
+:root {
+	--container-width: 1140px;
+	--container-padding: 15px;
+
+	--line-gap: .5em;
+
+	--font-main: 'Montserrat', sans-serif;
+	--font-accent: 'Montserrat', sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #1c6b49;
+	--text-color: #ffffff;
+	--accent: #ac182c;
+	--link-color: #aeb4a6;
+	--green-color: #94de1d;
+
+	--btn-color: #fff;
+	--btn-bgcolor: #94de1d;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+
+	--index: calc(1vw + 1vh);
+	--transition: ease-in-out;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
